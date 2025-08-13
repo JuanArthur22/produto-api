@@ -1,0 +1,25 @@
+{
+    "name": "juan/produto",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Juan\\Produto\\": "produto/",
+            "Model\\": "Model/",
+            "Controller\\": "Controller/"
+        },
+        "files": [
+            "Config/configuration.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "juan",
+            "email": "juanarthursenai.123@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "ext-mbstring": "*"
+    }
+}
